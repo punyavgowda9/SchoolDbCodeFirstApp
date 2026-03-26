@@ -1,0 +1,14 @@
+{
+  "ConnectionStrings": {
+    "SchoolCon": "Server=EC2AMAZ-EHR6SVV;Database=BykeStores;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
