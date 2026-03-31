@@ -4,6 +4,13 @@ namespace SchoolDbCodeFirstApp.Models
 {
     public class SchoolDbContext : DbContext
     {
+        public string _ConStr;
+        public SchoolDbContext() { }
+        public SchoolDbContext(string constr)
+        {
+            _ConStr = constr;
+        }
+
         public SchoolDbContext(DbContextOptions<SchoolDbContext> options)
             : base(options)
         {

@@ -7,6 +7,6 @@ namespace SchoolDbCodeFirstApp.Models
         public int GradeId { get; set; }
         public string Section { get; set; }
 
-        public ICollection<Student> Students { get; set; }
+        public virtual ICollection<Student> Students { get; set; }
     }
 }

@@ -14,5 +14,5 @@ dal.AddStudent(new Student
 
 foreach (var s in dal.GetAllStudents())
 {
-    Console.WriteLine(value: $"{s.StudentId} - {s.Name}");
+    //Console.WriteLine(value: $"{s.StudentId} - {s.Name}");
 }
